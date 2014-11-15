@@ -7,7 +7,7 @@
 
 #include "Projectile.h"
 
-#include <GL/gl.h>
+#include <SDL2/SDL_opengl.h>
 namespace Space {
 
 Projectile::Projectile(Game *game, double x, double y)

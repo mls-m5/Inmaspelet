@@ -11,7 +11,7 @@ using Space::Game;
 // If using gl3.h
 /* Ensure we are using opengl's core profile only */
 #define GL3_PROTOTYPES 1
-#include <GL/gl.h>
+#include <SDL2/SDL_opengl.h>
 #include "draw.h"
 
 #include <SDL2/SDL.h>

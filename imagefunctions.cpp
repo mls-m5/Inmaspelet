@@ -7,7 +7,6 @@
 
 //#define GL_GLEXT_PROTOTYPES
 
-#include <GL/glew.h>
 #include "imagefunctions.h"
 #include "common.h"
 #include <iostream>
@@ -15,7 +14,7 @@
 using namespace std;
 #include <string>
 #include <iosfwd>
-#include <GL/gl.h>
+#include <SDL2/SDL_opengl.h>
 #include <math.h>
 
 /* SDL interprets each pixel as a 32-bit number, so our masks must depend

@@ -9,7 +9,7 @@
 #define IMAGEFUNCTIONS_H_
 #include <SDL2/SDL.h>
 #include <string>
-#include <GL/gl.h>
+#include <SDL2/SDL_opengl.h>
 #include "common.h"
 
 class Image{

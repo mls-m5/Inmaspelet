@@ -7,7 +7,7 @@
 
 #include "Rock.h"
 
-#include <GL/gl.h>
+#include <SDL2/SDL_opengl.h>
 namespace Space {
 
 Rock::Rock(Game *game, double x, double y)

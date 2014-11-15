@@ -1,0 +1,306 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD3772231A17C5B500F92DE5 /* draw.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CD3772191A17C5B500F92DE5 /* draw.cpp */; };
+		CD3772241A17C5B500F92DE5 /* Game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CD37721B1A17C5B500F92DE5 /* Game.cpp */; };
+		CD3772251A17C5B500F92DE5 /* imagefunctions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CD37721E1A17C5B500F92DE5 /* imagefunctions.cpp */; };
+		CD3772321A17C5C500F92DE5 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CD3772281A17C5C500F92DE5 /* main.cpp */; };
+		CD3772341A17C5C500F92DE5 /* Projectile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CD37722A1A17C5C500F92DE5 /* Projectile.cpp */; };
+		CD3772351A17C5C500F92DE5 /* Rock.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CD37722C1A17C5C500F92DE5 /* Rock.cpp */; };
+		CD3772361A17C5C500F92DE5 /* shaderprogram.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CD37722E1A17C5C500F92DE5 /* shaderprogram.cpp */; };
+		CD3772371A17C5C500F92DE5 /* Ship.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CD3772301A17C5C500F92DE5 /* Ship.cpp */; };
+		CD3772391A17C6E200F92DE5 /* SDL2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD3772381A17C6E200F92DE5 /* SDL2.framework */; };
+		CD37723B1A17C93300F92DE5 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD37723A1A17C93300F92DE5 /* OpenGL.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CD37720A1A17C47300F92DE5 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CD37720C1A17C47300F92DE5 /* Inma */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Inma; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD3772161A17C5B500F92DE5 /* common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = common.h; sourceTree = "<group>"; };
+		CD3772181A17C5B500F92DE5 /* SpaceShip.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = SpaceShip.bmp; sourceTree = "<group>"; };
+		CD3772191A17C5B500F92DE5 /* draw.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = draw.cpp; sourceTree = "<group>"; };
+		CD37721A1A17C5B500F92DE5 /* draw.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = draw.h; sourceTree = "<group>"; };
+		CD37721B1A17C5B500F92DE5 /* Game.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Game.cpp; sourceTree = "<group>"; };
+		CD37721C1A17C5B500F92DE5 /* Game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Game.h; sourceTree = "<group>"; };
+		CD37721D1A17C5B500F92DE5 /* ICommandListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICommandListener.h; sourceTree = "<group>"; };
+		CD37721E1A17C5B500F92DE5 /* imagefunctions.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = imagefunctions.cpp; sourceTree = "<group>"; };
+		CD37721F1A17C5B500F92DE5 /* imagefunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = imagefunctions.h; sourceTree = "<group>"; };
+		CD3772271A17C5C500F92DE5 /* IObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IObject.h; sourceTree = "<group>"; };
+		CD3772281A17C5C500F92DE5 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		CD37722A1A17C5C500F92DE5 /* Projectile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Projectile.cpp; sourceTree = "<group>"; };
+		CD37722B1A17C5C500F92DE5 /* Projectile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Projectile.h; sourceTree = "<group>"; };
+		CD37722C1A17C5C500F92DE5 /* Rock.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Rock.cpp; sourceTree = "<group>"; };
+		CD37722D1A17C5C500F92DE5 /* Rock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Rock.h; sourceTree = "<group>"; };
+		CD37722E1A17C5C500F92DE5 /* shaderprogram.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = shaderprogram.cpp; sourceTree = "<group>"; };
+		CD37722F1A17C5C500F92DE5 /* shaderprogram.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = shaderprogram.h; sourceTree = "<group>"; };
+		CD3772301A17C5C500F92DE5 /* Ship.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Ship.cpp; sourceTree = "<group>"; };
+		CD3772311A17C5C500F92DE5 /* Ship.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ship.h; sourceTree = "<group>"; };
+		CD3772381A17C6E200F92DE5 /* SDL2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL2.framework; path = ../../../../Library/Frameworks/SDL2.framework; sourceTree = "<group>"; };
+		CD37723A1A17C93300F92DE5 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD3772091A17C47300F92DE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD37723B1A17C93300F92DE5 /* OpenGL.framework in Frameworks */,
+				CD3772391A17C6E200F92DE5 /* SDL2.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD3772031A17C47300F92DE5 = {
+			isa = PBXGroup;
+			children = (
+				CD37723A1A17C93300F92DE5 /* OpenGL.framework */,
+				CD3772381A17C6E200F92DE5 /* SDL2.framework */,
+				CD3772271A17C5C500F92DE5 /* IObject.h */,
+				CD3772281A17C5C500F92DE5 /* main.cpp */,
+				CD37722A1A17C5C500F92DE5 /* Projectile.cpp */,
+				CD37722B1A17C5C500F92DE5 /* Projectile.h */,
+				CD37722C1A17C5C500F92DE5 /* Rock.cpp */,
+				CD37722D1A17C5C500F92DE5 /* Rock.h */,
+				CD37722E1A17C5C500F92DE5 /* shaderprogram.cpp */,
+				CD37722F1A17C5C500F92DE5 /* shaderprogram.h */,
+				CD3772301A17C5C500F92DE5 /* Ship.cpp */,
+				CD3772311A17C5C500F92DE5 /* Ship.h */,
+				CD3772161A17C5B500F92DE5 /* common.h */,
+				CD3772171A17C5B500F92DE5 /* data */,
+				CD3772191A17C5B500F92DE5 /* draw.cpp */,
+				CD37721A1A17C5B500F92DE5 /* draw.h */,
+				CD37721B1A17C5B500F92DE5 /* Game.cpp */,
+				CD37721C1A17C5B500F92DE5 /* Game.h */,
+				CD37721D1A17C5B500F92DE5 /* ICommandListener.h */,
+				CD37721E1A17C5B500F92DE5 /* imagefunctions.cpp */,
+				CD37721F1A17C5B500F92DE5 /* imagefunctions.h */,
+				CD37720D1A17C47300F92DE5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD37720D1A17C47300F92DE5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD37720C1A17C47300F92DE5 /* Inma */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD3772171A17C5B500F92DE5 /* data */ = {
+			isa = PBXGroup;
+			children = (
+				CD3772181A17C5B500F92DE5 /* SpaceShip.bmp */,
+			);
+			path = data;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD37720B1A17C47300F92DE5 /* Inma */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD3772131A17C47300F92DE5 /* Build configuration list for PBXNativeTarget "Inma" */;
+			buildPhases = (
+				CD3772081A17C47300F92DE5 /* Sources */,
+				CD3772091A17C47300F92DE5 /* Frameworks */,
+				CD37720A1A17C47300F92DE5 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Inma;
+			productName = Inma;
+			productReference = CD37720C1A17C47300F92DE5 /* Inma */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD3772041A17C47300F92DE5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Mattias Lasersköld";
+				TargetAttributes = {
+					CD37720B1A17C47300F92DE5 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+				};
+			};
+			buildConfigurationList = CD3772071A17C47300F92DE5 /* Build configuration list for PBXProject "Inma" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CD3772031A17C47300F92DE5;
+			productRefGroup = CD37720D1A17C47300F92DE5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD37720B1A17C47300F92DE5 /* Inma */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD3772081A17C47300F92DE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD3772371A17C5C500F92DE5 /* Ship.cpp in Sources */,
+				CD3772361A17C5C500F92DE5 /* shaderprogram.cpp in Sources */,
+				CD3772231A17C5B500F92DE5 /* draw.cpp in Sources */,
+				CD3772341A17C5C500F92DE5 /* Projectile.cpp in Sources */,
+				CD3772351A17C5C500F92DE5 /* Rock.cpp in Sources */,
+				CD3772241A17C5B500F92DE5 /* Game.cpp in Sources */,
+				CD3772321A17C5C500F92DE5 /* main.cpp in Sources */,
+				CD3772251A17C5B500F92DE5 /* imagefunctions.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CD3772111A17C47300F92DE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		CD3772121A17C47300F92DE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CD3772141A17C47300F92DE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(USER_LIBRARY_DIR)/Frameworks",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CD3772151A17C47300F92DE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(USER_LIBRARY_DIR)/Frameworks",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD3772071A17C47300F92DE5 /* Build configuration list for PBXProject "Inma" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD3772111A17C47300F92DE5 /* Debug */,
+				CD3772121A17C47300F92DE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD3772131A17C47300F92DE5 /* Build configuration list for PBXNativeTarget "Inma" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD3772141A17C47300F92DE5 /* Debug */,
+				CD3772151A17C47300F92DE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD3772041A17C47300F92DE5 /* Project object */;
+}
