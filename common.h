@@ -31,3 +31,12 @@ constexpr double pi2 = pi * 2;
 constexpr float pif = pi;
 constexpr float pi2f = pi2;
 
+template <class T>
+T min(T a, T b) {
+	return a < b ? a : b;
+}
+
+template <class T>
+T max(T a, T b) {
+	return a > b ? a : b;
+}

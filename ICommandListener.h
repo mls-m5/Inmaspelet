@@ -15,7 +15,8 @@ public:
 		Left,
 		Right,
 		Forward,
-		Backward
+		Backward,
+		Fire,
 	};
 	virtual ~ICommandListener() {};
 

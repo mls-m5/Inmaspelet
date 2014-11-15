@@ -90,7 +90,7 @@ int main(int argc, char *argv[])
 
     // Create our window centered at 512x512 resolution
     mainwindow = SDL_CreateWindow(PROGRAM_NAME, SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED,
-        512, 512, SDL_WINDOW_OPENGL | SDL_WINDOW_SHOWN);
+        512 * 2, 512 * 2, SDL_WINDOW_OPENGL | SDL_WINDOW_SHOWN);
     if (!mainwindow) /* Die if creation failed */
         sdldie("Unable to create window");
     checkSDLError(__LINE__);
