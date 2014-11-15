@@ -47,7 +47,7 @@ void Ship::update(double t) {
 	_posY = max(_posY, -1.);
 
 	if (_commands[ICommandListener::Fire]) {
-		_game->addObject(new Projectile(_posX, _posY));
+		_game->addObject(new Projectile(_game, _posX, _posY));
 	}
 }
 Ship::~Ship() {

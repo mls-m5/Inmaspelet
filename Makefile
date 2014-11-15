@@ -1,6 +1,6 @@
 COMPILER=g++
 RUNSTRING=./${TARGET}
-OBJECTS=main.o draw.o shaderprogram.o imagefunctions.o Game.o Ship.o Projectile.o
+OBJECTS=main.o draw.o shaderprogram.o imagefunctions.o Game.o Ship.o Projectile.o Rock.o
 LIBS= -lpthread -lsndfile `sdl2-config --libs` -lGL
 FLAGS=-g -std=c++11 -Ofast `sdl2-config --cflags`
 

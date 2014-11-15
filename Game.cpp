@@ -10,11 +10,13 @@
 #include <SDL2/SDL_events.h>
 
 #include "common.h"
+#include "Rock.h"
 #include "Ship.h"
 namespace Space {
 
 Game::Game() {
 	addObject(new Ship(this));
+	addObject(new Rock(this, 0, 1));
 }
 
 Game::~Game() {

@@ -1,5 +1,5 @@
 /*
- * Projectile.h
+ * Rock.h
  *
  *  Created on: 15 nov 2014
  *      Author: Mattias Larsson Sköld
@@ -12,11 +12,11 @@
 
 namespace Space {
 
-class Projectile: public IObject {
+class Rock: public IObject {
 public:
-	Projectile(Game *game, double x, double y);
+	Rock(Game *game, double x, double y);
 
-	virtual ~Projectile();
+	virtual ~Rock();
 
 	virtual void draw();
 
@@ -27,7 +27,7 @@ private:
 	double _posX;
 	double _posY;
 	double _angle = 0;
-	double _speed = .1;
+	double radius = .3;
 	Game *_game;
 };
 

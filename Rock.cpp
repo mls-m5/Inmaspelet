@@ -1,40 +1,41 @@
 /*
- * Projectile.cpp
+ * Rock.cpp
  *
  *  Created on: 15 nov 2014
  *      Author: Mattias Larsson Sköld
  */
 
-#include "Projectile.h"
+#include "Rock.h"
 
 #include <GL/gl.h>
 namespace Space {
 
-Projectile::Projectile(Game *game, double x, double y)
+Rock::Rock(Game *game, double x, double y)
 :_posX(x)
 ,_posY(y)
 ,_game(game)
 {
 }
 
-Projectile::~Projectile() {
+Rock::~Rock() {
 }
 
-void Projectile::draw() {
+void Rock::draw() {
 	glLoadIdentity();
 	glTranslatef(_posX, _posY, 0);
-	glScaled(.01,.01,.01);
+	glScaled(radius, radius, radius);
 	glRotated(_angle, 0,0,1);
-	glBegin(GL_TRIANGLES);
+	glBegin(GL_TRIANGLE_FAN);
 	glColor3f(1,1,1);
 	glVertex2f(0, + 1);
-	glVertex2f(- .5,  - 1);
-	glVertex2f(+ .5, - 1);
+	glVertex2f(- 1,  0);
+	glVertex2f(0, - 1);
+	glVertex2f(- 1, 0);
 	glEnd();
 }
 
-void Projectile::update(double t) {
-	_posY += _speed;
+void Rock::update(double t) {
+	_posY -= .01;
 }
 
 } /* namespace Space */

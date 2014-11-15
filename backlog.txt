@@ -1,0 +1,15 @@
+Att göra (to do)
+* Snygg grafik
+ * Bitmappar
+ * Coola effekter
+ * Rök
+ * Osv
+* Fysikmotor
+ * Kollisionshantering
+* Namn
+* Poäng
+ * Få poäng
+ * Highscore
+* Andra operativsystem
+ * Andrid
+ * Mac
