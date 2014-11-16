@@ -35,8 +35,8 @@ void Ship::draw() {
 }
 
 void Ship::update(double t) {
-	_posX += _commands[ICommandListener::Left] * speed;
-	_posX -= _commands[ICommandListener::Right] * speed;
+	_posX -= _commands[ICommandListener::Left] * speed;
+	_posX += _commands[ICommandListener::Right] * speed;
 	_posY += _commands[ICommandListener::Forward] * speed;
 	_posY -= _commands[ICommandListener::Backward] * speed;
 

@@ -62,6 +62,9 @@ void handleEvent(SDL_Event *event, Game *game){
 			break;
 
 		default:
+            if (event->type == SDL_KEYDOWN and event->key.keysym.sym == SDLK_ESCAPE){
+                running = false;
+            }
 			game->handleEvent(event);
 			break;
 	}

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CD017FDF1A188810004E2AE7 /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = CD017FDE1A188810004E2AE7 /* Makefile */; };
 		CD3772231A17C5B500F92DE5 /* draw.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CD3772191A17C5B500F92DE5 /* draw.cpp */; };
 		CD3772241A17C5B500F92DE5 /* Game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CD37721B1A17C5B500F92DE5 /* Game.cpp */; };
 		CD3772251A17C5B500F92DE5 /* imagefunctions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CD37721E1A17C5B500F92DE5 /* imagefunctions.cpp */; };
@@ -32,6 +33,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		CD017FDE1A188810004E2AE7 /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
 		CD37720C1A17C47300F92DE5 /* Inma */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Inma; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD3772161A17C5B500F92DE5 /* common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = common.h; sourceTree = "<group>"; };
 		CD3772181A17C5B500F92DE5 /* SpaceShip.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = SpaceShip.bmp; sourceTree = "<group>"; };
@@ -72,6 +74,7 @@
 		CD3772031A17C47300F92DE5 = {
 			isa = PBXGroup;
 			children = (
+				CD017FDE1A188810004E2AE7 /* Makefile */,
 				CD37723A1A17C93300F92DE5 /* OpenGL.framework */,
 				CD3772381A17C6E200F92DE5 /* SDL2.framework */,
 				CD3772271A17C5C500F92DE5 /* IObject.h */,
@@ -169,6 +172,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD017FDF1A188810004E2AE7 /* Makefile in Sources */,
 				CD3772371A17C5C500F92DE5 /* Ship.cpp in Sources */,
 				CD3772361A17C5C500F92DE5 /* shaderprogram.cpp in Sources */,
 				CD3772231A17C5B500F92DE5 /* draw.cpp in Sources */,
