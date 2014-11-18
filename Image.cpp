@@ -7,16 +7,21 @@
 
 //#define GL_GLEXT_PROTOTYPES
 
-#include <GL/glew.h>
+//#include <GL/glew.h>
 #include "Image.h"
 #include "common.h"
 #include <iostream>
 #include <fstream>
 using namespace std;
 #include <string>
-#include <GL/gl.h>
+#include <SDL2/SDL_opengl.h>
 #include <math.h>
+#ifdef __APPLE__
+#include <SDL2_image/SDL_image.h>
+#else
 #include <SDL2/SDL_image.h>
+#endif
+
 #include <map>
 
 /* SDL interprets each pixel as a 32-bit number, so our masks must depend
