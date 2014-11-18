@@ -15,7 +15,7 @@ using Space::Game;
 #include "draw.h"
 
 #include <SDL2/SDL.h>
-#include "imagefunctions.h"
+#include "Image.h"
 #define PROGRAM_NAME "Tutorial1"
 
 // A simple function that prints a message, the error code returned by SDL,

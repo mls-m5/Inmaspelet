@@ -8,7 +8,10 @@
 #pragma once
 
 #include "Game.h"
+#include "Image.h"
 #include "IObject.h"
+
+using Images::Image;
 
 namespace Space {
 
@@ -29,6 +32,7 @@ private:
 	double _angle = 0;
 	double radius = .3;
 	Game *_game;
+	Image _image;
 };
 
 } /* namespace Space */

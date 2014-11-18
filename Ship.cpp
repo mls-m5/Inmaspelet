@@ -15,23 +15,15 @@
 namespace Space {
 
 Ship::Ship(Game* game)
- : _game(game)
+: _game(game)
+, _image("data/SpaceShip.png")
 {
 	game->addCommandListener(this);
 }
 
 
 void Ship::draw() {
-	glLoadIdentity();
-	glTranslatef(_posX, _posY, 0);
-	glScaled(.1,.1,.1);
-	glRotated(_heading, 0,0,1);
-	glBegin(GL_TRIANGLES);
-	glColor3f(1,1,1);
-	glVertex2f(0, + 1);
-	glVertex2f(- .5,  - 1);
-	glVertex2f(+ .5, - 1);
-	glEnd();
+	_image.draw(_posX, _posY, _heading, 1, 1, .5);
 }
 
 void Ship::update(double t) {

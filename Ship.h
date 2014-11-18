@@ -12,6 +12,7 @@
 #include "IObject.h"
 #include <map>
 
+#include "Image.h"
 namespace Space {
 
 class Game;
@@ -37,6 +38,7 @@ private:
 	// Todo add images.
 
 	Game *_game;
+	Image _image;
 
 	std::map<ICommandListener::CommandType, double> _commands;
 };
