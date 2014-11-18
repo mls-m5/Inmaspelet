@@ -17,8 +17,13 @@
 #include <GLES2/gl2ext.h>
 #else
 
-#include <GL/gl.h>
+#include <SDL2/SDL_opengl.h>
+//#include <GL/gl.h>
+#ifdef __MACH__
+#include <OpenGl/glext.h>
+#else
 #include <GL/glext.h>
+#endif
 #endif
 
 #include <string>

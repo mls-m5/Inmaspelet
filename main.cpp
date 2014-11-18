@@ -11,7 +11,7 @@ using Space::Game;
 // If using gl3.h
 /* Ensure we are using opengl's core profile only */
 #define GL3_PROTOTYPES 1
-#include <GL/gl.h>
+#include <SDL2/SDL_opengl.h>
 #include "draw.h"
 
 #include <SDL2/SDL.h>
@@ -62,6 +62,9 @@ void handleEvent(SDL_Event *event, Game *game){
 			break;
 
 		default:
+            if (event->type == SDL_KEYDOWN and event->key.keysym.sym == SDLK_ESCAPE){
+                running = false;
+            }
 			game->handleEvent(event);
 			break;
 	}
